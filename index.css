@@ -1,20 +1,19 @@
 body {
-    margin: 0;
-    font-family: Arial, sans-serif;
+  margin: 0;
+  font-family: Arial, sans-serif;
 }
 header{
 background-color: black;
 padding-right: 10px;
 padding-left: 10px;
-padding-bottom: 1px;
+padding-bottom: 30px;
 }
-#section1 {
-display: inline-block;
-transform:translatex(10px) translateY(0px);
+section {
+  display: inline-block;
+  width: 80px;
 }
-.oe-pics{
-width: 60px;
-cursor: pointer;
+section img {
+  width: 80px;
 }
 #section2 {
 display: inline-block;
@@ -92,7 +91,7 @@ font-size: 15px;
 .middle-section {
 display: inline-block;
 position: relative;
-transform:translatex(-100px) translatey(-75px);
+transform:translatex(-125px) translatey(-75px);
 }
 .search-bar {
 position: relative;
@@ -110,7 +109,7 @@ padding-right: 140px;
 padding-left: 15px;
 font-size: 16px;
 z-index: 1;
-transform:translateX(120px) ;
+transform:translateX(60px) translateY(25px);
 }
 .js-search-button {
 background-color: rgb(254, 189, 10);
@@ -127,7 +126,7 @@ height: 48px;
 z-index: 2;
 position: absolute;
 border-radius: 10px;
-transform:translateX(425px) translateY(26px);
+transform:translateX(365px) translateY(51px);
 }
 
 .search-icon {
@@ -139,7 +138,7 @@ width: 20px;
 
 .front-preview {
     display: grid;
-    background-color: rgb(238, 238, 238);
+    background-color: rgb(237, 237, 237);
     grid-template-columns: 1fr 1fr 1fr 1fr;
     column-gap: 20px;
     row-gap: 10px;
@@ -152,7 +151,7 @@ width: 20px;
     scrollbar-width: none;
   }
   .image-container {
-    background-color: #fff7f7;
+    background-color: rgb(229, 227, 227);;
     padding: 20px;  
     width: 250px;
     margin-right: 0;
@@ -172,9 +171,10 @@ width: 20px;
 
 
   #front-seller-preview {
-    background-color: rgb(255, 244, 244);
+    background-color: rgb(237, 237, 237);
     padding: 10px;
   }
+
   /* .link-text {
   }
   .box-container {
@@ -186,11 +186,12 @@ width: 20px;
     font-weight: 800;
     display: block;
   }
-  .shirt-container {
+  .container {
     width: 180px;
     height: 180px;
   }  
-  .trouser-container {
+  
+  /* .trouser-container {
     width: 180px;
   }
   .timber-land {
@@ -200,7 +201,7 @@ width: 20px;
   .watch-1 {
     width: 180px;
     height: 200px;
-  }
+  } */
 
 
   
@@ -211,6 +212,14 @@ width: 20px;
     color: rgb(26, 152, 255);
     font-family: arial;
   }
+  .container {
+    display: flex;
+    gap: 10px; 
+}
+.article {
+    padding: 10px;
+    flex: 1; 
+}
 
   footer {
     background-color: rgb(22, 61, 109);
