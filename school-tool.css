@@ -3,11 +3,15 @@ body {
     font-family: Arial, sans-serif;
   }
   header{
-  background-color: black;
-  padding-right: 10px;
-  padding-left: 10px;
-  padding-bottom: 30px;
-  }
+    background-color: black;
+    overflow: hidden;
+    position: fixed;
+    left: 0;
+    right: 0;
+    padding-right: 10px;
+    padding-left: 10px;
+    padding-bottom: 30px;
+    }
   section {
     display: inline-block;
     width: 80px;
@@ -136,6 +140,15 @@ body {
   
   
   
+  main {
+    padding-top: 8em;
+  }
+  .section {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  column-gap: 5px;
+  row-gap: 5px;
+  }
   .above-text {
       font-size: 20px;
       font-weight: 600;
