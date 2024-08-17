@@ -98,6 +98,7 @@ header{
     display: inline-block;
     position: relative;
     transform:translatex(-100px) translatey(-75px);
+    margin-right: 50px;
     }
     .search-bar {
     position: relative;
@@ -159,7 +160,7 @@ header{
     }
     .images-spaces {
       width: 170px;
-      height: 200px;
+      height: 170px;
       cursor: pointer;
       display: inline-block;
     }
