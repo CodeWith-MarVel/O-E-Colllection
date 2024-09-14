@@ -116,8 +116,10 @@ header{
     border-radius: 10px;
     outline: 0;
     height: 48px;
-    padding-right: 140px;
+    width: 220px;
+    padding-right: 75px;
     padding-left: 15px;
+    margin-left: 10px;
     font-size: 16px;
     z-index: 1;
     transform:translateX(10px) translateY(25px);
@@ -137,7 +139,7 @@ header{
     z-index: 2;
     position: absolute;
     border-radius: 10px;
-    transform:translateX(340px) translateY(51px);
+    transform:translateX(282px) translateY(51px);
     }
   
   .search-icon {
@@ -162,8 +164,8 @@ header{
     display: block;
   }
   .images-spaces {
-    width: 170px;
-    height: 170px;
+    width: 160px;
+    height: 160px;
     cursor: pointer;
     display: inline-block;
   }
